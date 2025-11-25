@@ -2,27 +2,28 @@
 
 ## Problem Statement
 
-The Number Guessing Game addresses the need for an engaging, educational, and interactive command-line game that challenges players to deduce a randomly generated number within a limited number of attempts. Traditional number guessing games often lack analytical feedback, leaving players without insights into their guessing strategy efficiency or learning opportunities for improvement.
+The Number Guessing Game is a fun and educational command-line game where players try to guess a random number in a few attempts. Unlike older versions, it gives feedback to help players understand and improve their guessing strategy Traditional number guessing games often lack analytical feedback, leaving players without insights into their guessing strategy efficiency or learning opportunities for improvement.
+do same
 
 ## Scope of the Project
 
 ### In-Scope
-- **Core Gameplay**: Random number generation between configurable ranges (1-100 by default)
-- **Input Validation**: Robust handling of invalid inputs, duplicate guesses, and out-of-range numbers
-- **Attempt Limitation**: Fixed maximum attempts (7 by default) to create challenging gameplay
-- **Real-time Feedback**: Immediate hints ("higher" or "lower") after each guess
+- **Core Gameplay**: Random number generated between given ranges (1-100 by default)
+- **Input Validation**: RCareful checking of wrong, repeated, or out-of-range guesses
+- **Attempt Limitation**: Fixed maximum attempts (7 as default) to create challenging gameplay
+- **Real-time Feedback**: Immediate hints ("higher" or "lower") after each try
 - **Game Analytics**: 
-  - Probability analysis of winning based on remaining possibilities
+  - Probability anaalysis of wining based on remaining possibilities
   - Optimal strategy assessment showing minimum additional guesses needed
 - **User Experience**: Timed delays for readable output and smooth gameplay flow
 
 ### Out-of-Scope
 - Graphical user interface (GUI) - command-line only
-- Multiplayer functionality
-- Persistent score tracking or leaderboards
+- Multiplayer option
+- Score tracking or leaderboards
 - Network connectivity or online features
 - Mobile application development
-- Advanced difficulty levels or progressive complexity
+- Advanced difficulty levels or progressive increasing difficulty
 
 ## Target Users
 
