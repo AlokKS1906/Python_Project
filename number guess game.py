@@ -1,6 +1,9 @@
 import random
 import sys
 import time
+import math
+import datetime
+print(datetime.datetime.now())
 
 
 def get_valid_guess(lower, upper, previous_guesses):
@@ -45,7 +48,7 @@ def min_additional_tries(guesses, secret, lower, upper):
             possible = set(x for x in possible if x < g)
     remaining = len(possible)
     # Number of tries in worst-case binary search = ceil(log2(remaining))
-    import math
+    #import math
     if remaining <= 1:
         return 0
     return math.ceil(math.log2(remaining))
