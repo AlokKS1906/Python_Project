@@ -230,6 +230,4 @@ Based on your guesses so far, you could have found the secret number in about 2 
 - Binary Search Algorithm: Classical computer science algorithm
 - Probability Theory: Basic principles of search space reduction
 
----
 
-**Enjoy playing the Number Guessing Game!** 🎯
