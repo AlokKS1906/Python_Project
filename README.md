@@ -19,7 +19,7 @@ A Python-based number guessing game where players try to guess a randomly genera
 
 ## Installation & Setup
 
-### Prerequisites
+### Essential
 - Python 3.6 or higher installed on your system
 
 ### Steps to Run
@@ -43,7 +43,7 @@ A Python-based number guessing game where players try to guess a randomly genera
 ### Manual Testing
 1. **Valid Input Testing**
    - Test with numbers within range (1-100)
-   - Verify correct higher/lower feedback
+   - Check for correct higher/lower feedback
 
 2. **Invalid Input Testing**
    - Test with non-numeric inputs
@@ -53,7 +53,7 @@ A Python-based number guessing game where players try to guess a randomly genera
 3. **Game Flow Testing**
    - Test winning scenario
    - Test losing scenario
-   - Verify attempt counting
+   - Verify number of attempt given
 
 ### Automated Testing
 Create a test file `test_game.py`:
@@ -119,19 +119,19 @@ Main Game
 ## Design Decisions & Rationale
 
 ### 1. Input Validation
-**Decision**: Implement comprehensive input validation with user feedback
-**Rationale**: Prevents crashes and provides clear guidance for invalid inputs
+**Decision**: Implement complete input validation with user feedback
+**Rationale**: Prevents crashes and provides clear guidance for wrong inputs
 
 ### 2. Limited Attempts
 **Decision**: Set maximum attempts to 7
 **Rationale**: Matches optimal binary search depth for range 1-100 (log₂(100) ≈ 7)
 
 ### 3. Probability Analysis
-**Decision**: Include winning probability calculation
-**Rationale**: Provides educational value about search space reduction
+**Decision**: Includes winning probability calculation
+**Rationale**: Provides educational feedback about search space reduction
 
 ### 4. Time Delays
-**Decision**: Add 1-second delays between interactions
+**Decision**: Add 1-sec delays between interactions
 **Rationale**: Improves readability and user experience
 
 ## Implementation Details
@@ -145,12 +145,12 @@ Main Game
 
 #### `analyze_guesses(guesses, secret, lower, upper)`
 - Calculates remaining possible numbers
-- Computes probability of winning
+- Checks probability of winning
 - Uses set operations for efficiency
 
 #### `min_additional_tries(guesses, secret, lower, upper)`
 - Implements binary search analysis
-- Calculates optimal remaining attempts
+- Calculates optimal remaining tries
 - Uses logarithmic complexity
 
 ## Screenshots
