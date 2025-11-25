@@ -1,20 +1,20 @@
 # Number Guessing Game
 
 ## Overview
-A Python-based number guessing game where players try to guess a randomly generated number within a limited number of attempts. The game provides intelligent feedback and analysis of the player's guessing strategy.
+A Python-based number guessing game where players try to guess a randomly generated number within a limited number of tries. The game provides improtant feedback and analysis the player's guessing strategy.
 
 ## Features
 - Random number generation between 1-100
 - Input validation and error handling
-- Limited attempts (7 tries)
-- Guess history tracking
+- Limited attempts (7 trys)
+- History tracking
 - Probability analysis of winning chances
 - Optimal strategy suggestions
-- User-friendly console interface
+- Userfriendly interface
 
 ## Technologies Used
 - **Programming Language**: Python 3
-- **Libraries**: random, sys, time, math
+- **Libraries**: random, sys, time, math,datetime
 - **Tools**: Standard Python environment
 
 ## Installation & Setup
