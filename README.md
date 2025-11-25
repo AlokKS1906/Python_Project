@@ -154,6 +154,8 @@ Main Game
 - Uses logarithmic complexity
 
 ## Screenshots
+<img width="1398" height="930" alt="Screenshot 2025-11-23 180626" src="https://github.com/user-attachments/assets/3a2d8103-d27e-4699-85d6-82e6f7fd5e42" />
+<img width="1405" height="922" alt="Screenshot 2025-11-23 180744" src="https://github.com/user-attachments/assets/b25df5c0-5d67-4b76-84c5-49e443298f31" />
 
 ### Gameplay Example
 ```
