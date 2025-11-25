@@ -178,35 +178,35 @@ Based on your guesses so far, you could have found the secret number in about 2 
 ## Testing Approach
 
 ### Unit Tests
-- Input validation testing
-- Probability calculation verification
-- Game logic validation
+- Input valedation testing
+- Probability calculation varification
+- Game logic valedation
 
 ### Integration Tests
-- Full game flow testing
+- Full game flow tests
 - Error handling scenarios
 - Boundary condition testing
 
 ## Challenges Faced
 
-1. **Probability Calculation**
-   - Challenge: Accurately modeling search space reduction
+1. **Probability Calcules**
+   - Challenge: Correct modeling search space reduction
    - Solution: Used set operations to track remaining possibilities
 
 2. **User Experience**
    - Challenge: Balancing feedback with game flow
-   - Solution: Implemented timed delays and clear messaging
+   - Solution: Implemented timed delays and clear messages
 
 3. **Optimal Strategy Analysis**
    - Challenge: Calculating minimum additional tries
-   - Solution: Applied binary search principles to reduced range
+   - Solution: Useing binary search principle to reduced range
 
 ## Learnings & Key Takeaways
 
-1. **Algorithm Design**: Practical application of binary search and probability theory
-2. **User Input Handling**: Robust validation improves application reliability
-3. **Educational Value**: Game mechanics can teach fundamental CS concepts
-4. **Code Organization**: Modular functions enhance maintainability
+1. **Algorithm Design**: Real world uses of binary search and probability theory
+2. **User Input Handling**: Strong checking makes an application more reliable
+3. **Educational Value**: Game mechanics can teach fundamental ComputerSience concepts
+4. **Code Organization**: Dividing code into parts makes it easier to maintain
 
 ## Future Enhancements
 
